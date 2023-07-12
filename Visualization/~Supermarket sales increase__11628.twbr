@@ -1,0 +1,2609 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Supermarket Customers Clean' inline='true' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Supermarket Customers Clean' name='textscan.1cm1i9t190vj1817zz2r50yeu6hl'>
+            <connection class='textscan' directory='F:/Capstone-Project-2/Data' filename='Supermarket Customers Clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1cm1i9t190vj1817zz2r50yeu6hl' name='Supermarket Customers Clean.csv' table='[Supermarket Customers Clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='id_ID'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='Year_Birth' ordinal='1' />
+            <column datatype='string' name='Age' ordinal='2' />
+            <column datatype='string' name='Age_Category' ordinal='3' />
+            <column datatype='string' name='Education' ordinal='4' />
+            <column datatype='string' name='Marital_Status' ordinal='5' />
+            <column datatype='integer' name='Income' ordinal='6' />
+            <column datatype='string' name='Income_Category' ordinal='7' />
+            <column datatype='integer' name='Kidhome' ordinal='8' />
+            <column datatype='integer' name='Teenhome' ordinal='9' />
+            <column datatype='string' name='Child' ordinal='10' />
+            <column datatype='date' name='Dt_Customer' ordinal='11' />
+            <column datatype='integer' name='Recency' ordinal='12' />
+            <column datatype='integer' name='Complain' ordinal='13' />
+            <column datatype='integer' name='MntWines' ordinal='14' />
+            <column datatype='integer' name='MntFruits' ordinal='15' />
+            <column datatype='integer' name='MntMeatProducts' ordinal='16' />
+            <column datatype='integer' name='MntFishProducts' ordinal='17' />
+            <column datatype='integer' name='MntSweetProducts' ordinal='18' />
+            <column datatype='integer' name='MntGoldProds' ordinal='19' />
+            <column datatype='integer' name='Total_Purchases' ordinal='20' />
+            <column datatype='integer' name='NumDealsPurchases' ordinal='21' />
+            <column datatype='integer' name='AcceptedCmp1' ordinal='22' />
+            <column datatype='integer' name='AcceptedCmp2' ordinal='23' />
+            <column datatype='integer' name='AcceptedCmp3' ordinal='24' />
+            <column datatype='integer' name='AcceptedCmp4' ordinal='25' />
+            <column datatype='integer' name='AcceptedCmp5' ordinal='26' />
+            <column datatype='string' name='Accepted_Cmp' ordinal='27' />
+            <column datatype='integer' name='Response' ordinal='28' />
+            <column datatype='integer' name='NumWebPurchases' ordinal='29' />
+            <column datatype='integer' name='NumCatalogPurchases' ordinal='30' />
+            <column datatype='integer' name='NumStorePurchases' ordinal='31' />
+            <column datatype='integer' name='NumWebVisitsMonth' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1cm1i9t190vj1817zz2r50yeu6hl' name='Supermarket Customers Clean.csv' table='[Supermarket Customers Clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='id_ID'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='string' name='Year_Birth' ordinal='1' />
+            <column datatype='string' name='Age' ordinal='2' />
+            <column datatype='string' name='Age_Category' ordinal='3' />
+            <column datatype='string' name='Education' ordinal='4' />
+            <column datatype='string' name='Marital_Status' ordinal='5' />
+            <column datatype='integer' name='Income' ordinal='6' />
+            <column datatype='string' name='Income_Category' ordinal='7' />
+            <column datatype='integer' name='Kidhome' ordinal='8' />
+            <column datatype='integer' name='Teenhome' ordinal='9' />
+            <column datatype='string' name='Child' ordinal='10' />
+            <column datatype='date' name='Dt_Customer' ordinal='11' />
+            <column datatype='integer' name='Recency' ordinal='12' />
+            <column datatype='integer' name='Complain' ordinal='13' />
+            <column datatype='integer' name='MntWines' ordinal='14' />
+            <column datatype='integer' name='MntFruits' ordinal='15' />
+            <column datatype='integer' name='MntMeatProducts' ordinal='16' />
+            <column datatype='integer' name='MntFishProducts' ordinal='17' />
+            <column datatype='integer' name='MntSweetProducts' ordinal='18' />
+            <column datatype='integer' name='MntGoldProds' ordinal='19' />
+            <column datatype='integer' name='Total_Purchases' ordinal='20' />
+            <column datatype='integer' name='NumDealsPurchases' ordinal='21' />
+            <column datatype='integer' name='AcceptedCmp1' ordinal='22' />
+            <column datatype='integer' name='AcceptedCmp2' ordinal='23' />
+            <column datatype='integer' name='AcceptedCmp3' ordinal='24' />
+            <column datatype='integer' name='AcceptedCmp4' ordinal='25' />
+            <column datatype='integer' name='AcceptedCmp5' ordinal='26' />
+            <column datatype='string' name='Accepted_Cmp' ordinal='27' />
+            <column datatype='integer' name='Response' ordinal='28' />
+            <column datatype='integer' name='NumWebPurchases' ordinal='29' />
+            <column datatype='integer' name='NumCatalogPurchases' ordinal='30' />
+            <column datatype='integer' name='NumStorePurchases' ordinal='31' />
+            <column datatype='integer' name='NumWebVisitsMonth' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rp&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;id_ID&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_Birth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year_Birth]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Year_Birth</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age_Category]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Age_Category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital_Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Marital_Status]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Marital_Status</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Income]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Income</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income_Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Income_Category]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Income_Category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kidhome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kidhome]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Kidhome</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teenhome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Teenhome]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Teenhome</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Child</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Child]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Child</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dt_Customer</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Dt_Customer]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Dt_Customer</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recency</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recency]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Recency</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Complain]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Complain</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntWines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntWines]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntWines</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntFruits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntFruits]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntFruits</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntMeatProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntMeatProducts]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntMeatProducts</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntFishProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntFishProducts]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntFishProducts</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntSweetProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntSweetProducts]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntSweetProducts</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntGoldProds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntGoldProds]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>MntGoldProds</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Purchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Purchases]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Total_Purchases</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumDealsPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumDealsPurchases]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>NumDealsPurchases</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp1]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>AcceptedCmp1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp2]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>AcceptedCmp2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp3]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>AcceptedCmp3</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp4]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>AcceptedCmp4</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp5]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>AcceptedCmp5</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accepted_Cmp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Accepted_Cmp]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Accepted_Cmp</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Response]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>Response</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumWebPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumWebPurchases]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>NumWebPurchases</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumCatalogPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumCatalogPurchases]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>NumCatalogPurchases</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumStorePurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumStorePurchases]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>NumStorePurchases</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumWebVisitsMonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumWebVisitsMonth]</local-name>
+            <parent-name>[Supermarket Customers Clean.csv]</parent-name>
+            <remote-alias>NumWebVisitsMonth</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[AcceptedCmp1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AcceptedCmp2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AcceptedCmp3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AcceptedCmp4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AcceptedCmp5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Complain]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Income]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Kidhome]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntFishProducts]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntFruits]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntGoldProds]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntMeatProducts]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntSweetProducts]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MntWines]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NumCatalogPurchases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NumDealsPurchases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NumStorePurchases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NumWebPurchases]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NumWebVisitsMonth]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Recency]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Response]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Teenhome]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Supermarket Customers Clean.csv' datatype='table' name='[__tableau_internal_object_id__].[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total_Purchases]' derivation='Avg' name='[avg:Total_Purchases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AcceptedCmp1]' derivation='Sum' name='[sum:AcceptedCmp1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AcceptedCmp2]' derivation='Sum' name='[sum:AcceptedCmp2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AcceptedCmp3]' derivation='Sum' name='[sum:AcceptedCmp3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AcceptedCmp4]' derivation='Sum' name='[sum:AcceptedCmp4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AcceptedCmp5]' derivation='Sum' name='[sum:AcceptedCmp5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Complain]' derivation='Sum' name='[sum:Complain:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Income]' derivation='Sum' name='[sum:Income:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Kidhome]' derivation='Sum' name='[sum:Kidhome:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntFishProducts]' derivation='Sum' name='[sum:MntFishProducts:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntFruits]' derivation='Sum' name='[sum:MntFruits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntGoldProds]' derivation='Sum' name='[sum:MntGoldProds:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntMeatProducts]' derivation='Sum' name='[sum:MntMeatProducts:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntSweetProducts]' derivation='Sum' name='[sum:MntSweetProducts:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[MntWines]' derivation='Sum' name='[sum:MntWines:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NumCatalogPurchases]' derivation='Sum' name='[sum:NumCatalogPurchases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NumDealsPurchases]' derivation='Sum' name='[sum:NumDealsPurchases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NumStorePurchases]' derivation='Sum' name='[sum:NumStorePurchases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NumWebPurchases]' derivation='Sum' name='[sum:NumWebPurchases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Recency]' derivation='Sum' name='[sum:Recency:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Response]' derivation='Sum' name='[sum:Response:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Teenhome]' derivation='Sum' name='[sum:Teenhome:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total_Purchases]' derivation='Sum' name='[sum:Total_Purchases:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Kidhome:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp1:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Response:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp5:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp4:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Complain:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumWebPurchases:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Teenhome:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumDealsPurchases:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[__tableau_internal_object_id__].[cnt:Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumStorePurchases:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Recency:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp3:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Income:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp2:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Total_Purchases:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumCatalogPurchases:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Supermarket Customers Clean.csv' id='Supermarket Customers Clean.csv_7584F41B3D9442B0A57DE1925EE7EDB2'>
+            <properties context=''>
+              <relation connection='textscan.1cm1i9t190vj1817zz2r50yeu6hl' name='Supermarket Customers Clean.csv' table='[Supermarket Customers Clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='id_ID'>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='string' name='Year_Birth' ordinal='1' />
+                  <column datatype='string' name='Age' ordinal='2' />
+                  <column datatype='string' name='Age_Category' ordinal='3' />
+                  <column datatype='string' name='Education' ordinal='4' />
+                  <column datatype='string' name='Marital_Status' ordinal='5' />
+                  <column datatype='integer' name='Income' ordinal='6' />
+                  <column datatype='string' name='Income_Category' ordinal='7' />
+                  <column datatype='integer' name='Kidhome' ordinal='8' />
+                  <column datatype='integer' name='Teenhome' ordinal='9' />
+                  <column datatype='string' name='Child' ordinal='10' />
+                  <column datatype='date' name='Dt_Customer' ordinal='11' />
+                  <column datatype='integer' name='Recency' ordinal='12' />
+                  <column datatype='integer' name='Complain' ordinal='13' />
+                  <column datatype='integer' name='MntWines' ordinal='14' />
+                  <column datatype='integer' name='MntFruits' ordinal='15' />
+                  <column datatype='integer' name='MntMeatProducts' ordinal='16' />
+                  <column datatype='integer' name='MntFishProducts' ordinal='17' />
+                  <column datatype='integer' name='MntSweetProducts' ordinal='18' />
+                  <column datatype='integer' name='MntGoldProds' ordinal='19' />
+                  <column datatype='integer' name='Total_Purchases' ordinal='20' />
+                  <column datatype='integer' name='NumDealsPurchases' ordinal='21' />
+                  <column datatype='integer' name='AcceptedCmp1' ordinal='22' />
+                  <column datatype='integer' name='AcceptedCmp2' ordinal='23' />
+                  <column datatype='integer' name='AcceptedCmp3' ordinal='24' />
+                  <column datatype='integer' name='AcceptedCmp4' ordinal='25' />
+                  <column datatype='integer' name='AcceptedCmp5' ordinal='26' />
+                  <column datatype='string' name='Accepted_Cmp' ordinal='27' />
+                  <column datatype='integer' name='Response' ordinal='28' />
+                  <column datatype='integer' name='NumWebPurchases' ordinal='29' />
+                  <column datatype='integer' name='NumCatalogPurchases' ordinal='30' />
+                  <column datatype='integer' name='NumStorePurchases' ordinal='31' />
+                  <column datatype='integer' name='NumWebVisitsMonth' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='(G) Products with the highest total purchase'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='integer' name='[MntFishProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntFruits]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntGoldProds]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntMeatProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntSweetProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntWines]' role='measure' type='quantitative' />
+            <column-instance column='[MntFishProducts]' derivation='Sum' name='[sum:MntFishProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntFruits]' derivation='Sum' name='[sum:MntFruits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntGoldProds]' derivation='Sum' name='[sum:MntGoldProds:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntMeatProducts]' derivation='Sum' name='[sum:MntMeatProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntSweetProducts]' derivation='Sum' name='[sum:MntSweetProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntWines]' derivation='Sum' name='[sum:MntWines:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#005500' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;</value>
+                <value>680816.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;</value>
+                <value>373968.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;</value>
+                <value>98609.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;</value>
+                <value>84057.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;</value>
+                <value>60621.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;</value>
+                <value>58917.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{343B7A6A-5D2E-44EE-BA55-0AE03428AFBB}' />
+    </worksheet>
+    <worksheet name='(Y) Products with the highest total purchase'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[MntFishProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntFruits]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntGoldProds]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntMeatProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntSweetProducts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MntWines]' role='measure' type='quantitative' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MntFishProducts]' derivation='Sum' name='[sum:MntFishProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntFruits]' derivation='Sum' name='[sum:MntFruits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntGoldProds]' derivation='Sum' name='[sum:MntGoldProds:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntMeatProducts]' derivation='Sum' name='[sum:MntMeatProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntSweetProducts]' derivation='Sum' name='[sum:MntSweetProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntWines]' derivation='Sum' name='[sum:MntWines:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</column>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#005500' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntWines:qk]&quot;</value>
+                <value>680816.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntMeatProducts:qk]&quot;</value>
+                <value>373968.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntGoldProds:qk]&quot;</value>
+                <value>98609.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFishProducts:qk]&quot;</value>
+                <value>84057.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntSweetProducts:qk]&quot;</value>
+                <value>60621.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:MntFruits:qk]&quot;</value>
+                <value>58917.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{F1E384E7-A99C-46EC-950F-C1BD21B09B53}' />
+    </worksheet>
+    <worksheet name='Avg Income in general'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Income]' role='measure' type='quantitative' />
+            <column-instance column='[Income]' derivation='Avg' name='[avg:Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dt_Customer]' derivation='Year' name='[yr:Dt_Customer:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]' />
+              <text column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#005500' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Dari Income customer dari tahun ke tahun mengalami kenaikan</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.363855'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>2012</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='24753.763101876018'>
+                  <node-reference>
+                    <axis>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.739759'>
+                  <node-reference>
+                    <fields>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]</field>
+                    </fields>
+                    <multibucket>
+                      <bucket>2013</bucket>
+                    </multibucket>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='15783.758354157879'>
+                  <node-reference>
+                    <axis>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{15E55F50-14F3-4B02-A83F-0653622665F6}' />
+    </worksheet>
+    <worksheet name='Avg total purchases in general'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Purchases]' derivation='Avg' name='[avg:Total_Purchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dt_Customer]' derivation='Year' name='[yr:Dt_Customer:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+              <text column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#005500' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]</cols>
+      </table>
+      <simple-id uuid='{F3B39FE3-39ED-4B9B-8674-AD40994194C3}' />
+    </worksheet>
+    <worksheet name='Avg total purchases that received the campaign'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Purchases]' derivation='Avg' name='[avg:Total_Purchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Dt_Customer]' derivation='Year' name='[yr:Dt_Customer:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+              <text column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#005500' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[yr:Dt_Customer:ok]</cols>
+      </table>
+      <simple-id uuid='{15B42CD2-01C4-49F2-AB2B-272CCAAD25D2}' />
+    </worksheet>
+    <worksheet name='Place'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Place by purchase (Accepted_Cmp = Yes)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[NumCatalogPurchases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NumStorePurchases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NumWebPurchases]' role='measure' type='quantitative' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NumCatalogPurchases]' derivation='Sum' name='[sum:NumCatalogPurchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NumStorePurchases]' derivation='Sum' name='[sum:NumStorePurchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NumWebPurchases]' derivation='Sum' name='[sum:NumWebPurchases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumStorePurchases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumWebPurchases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumCatalogPurchases:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumStorePurchases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumWebPurchases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumCatalogPurchases:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</column>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumStorePurchases:qk]&quot;</value>
+                <value>12970.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumWebPurchases:qk]&quot;</value>
+                <value>9150.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:NumCatalogPurchases:qk]&quot;</value>
+                <value>5963.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{486FD363-3AE9-486B-B709-4CD04CDC0622}' />
+    </worksheet>
+    <worksheet name='Target Markets'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='string' name='[Age_Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Child]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Income_Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Marital_Status]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Purchases]' derivation='Avg' name='[avg:Total_Purchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age_Category]' derivation='None' name='[none:Age_Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Child]' derivation='None' name='[none:Child:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income_Category]' derivation='None' name='[none:Income_Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Marital_Status]' derivation='None' name='[none:Marital_Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+              <text column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk] / [federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk])</rows>
+        <cols>([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk] / ([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk] / [federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]))</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='319'>
+            <formatted-text>
+              <run bold='true' fontsize='8'>criteria with the highest total purchase</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1834.1428571428571</value>
+                    <value>&quot;Young&quot;</value>
+                    <value>&quot;No&quot;</value>
+                    <value>&quot;Postgraduate&quot;</value>
+                    <value>&quot;Upper Income&quot;</value>
+                    <value>&quot;Single&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-122' y='-189' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{1512C709-ED5E-4E6D-8469-403D5E053006}' />
+    </worksheet>
+    <worksheet name='Target Markets who accept cmp'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Age_Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Child]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Income_Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Marital_Status]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Purchases]' derivation='Avg' name='[avg:Total_Purchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age_Category]' derivation='None' name='[none:Age_Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Child]' derivation='None' name='[none:Child:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income_Category]' derivation='None' name='[none:Income_Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Marital_Status]' derivation='None' name='[none:Marital_Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+              <text column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk] / [federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk])</rows>
+        <cols>([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk] / ([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk] / [federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]))</cols>
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='332'>
+            <formatted-text>
+              <run bold='true' fontsize='8'>criteria with the highest total purchase based on who accepted the campaign</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk]</field>
+                        <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Age_Category:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Child:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Education:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Income_Category:nk]</field>
+                      <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Marital_Status:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>1906.6666666666667</value>
+                    <value>&quot;Middle-aged&quot;</value>
+                    <value>&quot;No&quot;</value>
+                    <value>&quot;Postgraduate&quot;</value>
+                    <value>&quot;Upper Income&quot;</value>
+                    <value>&quot;Single&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-79' y='-169' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{82ABCE50-A616-48E9-9091-689F7DE6D6AD}' />
+    </worksheet>
+    <worksheet name='Tren'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='integer' name='[AcceptedCmp1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp5]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Total_Purchases]' role='measure' type='quantitative' />
+            <column-instance column='[Dt_Customer]' derivation='Month' name='[mn:Dt_Customer:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AcceptedCmp1]' derivation='Sum' name='[sum:AcceptedCmp1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp2]' derivation='Sum' name='[sum:AcceptedCmp2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp3]' derivation='Sum' name='[sum:AcceptedCmp3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp4]' derivation='Sum' name='[sum:AcceptedCmp4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp5]' derivation='Sum' name='[sum:AcceptedCmp5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Purchases]' derivation='Sum' name='[sum:Total_Purchases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp3:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp5:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</column>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Total_Purchases:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1ce63' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' />
+              <lod column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' />
+              <lod column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Total_Purchases:qk] + [federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values])</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[mn:Dt_Customer:ok]</cols>
+      </table>
+      <simple-id uuid='{951F9571-0EDE-43EF-B3B5-CB85713B46B6}' />
+    </worksheet>
+    <worksheet name='frequency of Campaign'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supermarket Customers Clean' name='federated.1s366lm0hdzfwu188nlfu0v3ybt4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s366lm0hdzfwu188nlfu0v3ybt4'>
+            <column datatype='integer' name='[AcceptedCmp1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AcceptedCmp5]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Accepted_Cmp]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Response]' role='measure' type='quantitative' />
+            <column-instance column='[Accepted_Cmp]' derivation='None' name='[none:Accepted_Cmp:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AcceptedCmp1]' derivation='Sum' name='[sum:AcceptedCmp1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp2]' derivation='Sum' name='[sum:AcceptedCmp2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp3]' derivation='Sum' name='[sum:AcceptedCmp3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp4]' derivation='Sum' name='[sum:AcceptedCmp4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AcceptedCmp5]' derivation='Sum' name='[sum:AcceptedCmp5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Response]' derivation='Sum' name='[sum:Response:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp3:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp5:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Response:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]'>
+            <groupfilter function='member' level='[none:Accepted_Cmp:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</column>
+            <column>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[none:Accepted_Cmp:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</rows>
+        <cols>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp1:qk]&quot;</value>
+                <value>144.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp2:qk]&quot;</value>
+                <value>30.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp3:qk]&quot;</value>
+                <value>163.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp4:qk]&quot;</value>
+                <value>167.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:AcceptedCmp5:qk]&quot;</value>
+                <value>163.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]</field>
+                  <field>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[sum:Response:qk]&quot;</value>
+                <value>188.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{D2767E04-6CF2-44EF-80CC-64C7C29D5107}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Customer Segmentation'>
+      <style />
+      <size maxheight='878' maxwidth='1604' minheight='878' minwidth='1604' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98178' id='7' param='horz' type-v2='layout-flow' w='99002' x='499' y='911'>
+            <zone h='98178' id='5' type-v2='layout-basic' w='89027' x='499' y='911'>
+              <zone h='98178' id='3' name='Target Markets' w='44514' x='499' y='911'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98178' id='9' name='Target Markets who accept cmp' w='44513' x='45013' y='911'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98178' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='911'>
+              <zone h='9225' id='8' name='Target Markets' pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type-v2='color' w='9975' x='89526' y='911'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98178' id='10' param='vert' type-v2='layout-flow' w='99002' x='499' y='911'>
+                <zone fixed-size='280' h='98178' id='3' is-fixed='true' name='Target Markets' w='44514' x='499' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9225' id='8' name='Target Markets' pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type-v2='color' w='9975' x='89526' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98178' id='9' is-fixed='true' name='Target Markets who accept cmp' w='44513' x='45013' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{529863D5-EAA2-4801-A3E1-F72CE9010AEF}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Decrease in sales'>
+      <style />
+      <size maxheight='878' maxwidth='1604' minheight='878' minwidth='1604' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98178' id='3' name='Avg total purchases in general' w='51558' x='499' y='911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98178' id='5' name='Avg total purchases that received the campaign' w='47444' x='52057' y='911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98178' id='6' param='vert' type-v2='layout-flow' w='99002' x='499' y='911'>
+                <zone fixed-size='280' h='98178' id='3' is-fixed='true' name='Avg total purchases in general' w='51558' x='499' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98178' id='5' is-fixed='true' name='Avg total purchases that received the campaign' w='47444' x='52057' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{99DCA2A6-814A-49AD-917C-62B8C475DE70}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Prduct'>
+      <style />
+      <size maxheight='878' maxwidth='1604' minheight='878' minwidth='1604' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98178' id='3' name='(G) Products with the highest total purchase' w='49501' x='499' y='911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98178' id='5' name='(Y) Products with the highest total purchase' w='49501' x='50000' y='911'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98178' id='6' param='vert' type-v2='layout-flow' w='99002' x='499' y='911'>
+                <zone fixed-size='280' h='98178' id='3' is-fixed='true' name='(G) Products with the highest total purchase' w='49501' x='499' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98178' id='5' is-fixed='true' name='(Y) Products with the highest total purchase' w='49501' x='50000' y='911'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3F924392-9C1D-41F2-982B-C25F20DBEAC6}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>supermarket sales increase</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='339' />
+        </style-rule>
+      </style>
+      <size maxheight='878' maxwidth='1604' minheight='878' minwidth='1604' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98178' id='1' param='vert' removable='false' type-v2='layout-flow' w='99002' x='499' y='911'>
+            <zone h='5695' id='3' type-v2='title' w='99002' x='499' y='911' />
+            <zone h='11503' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99002' x='499' y='6606' />
+            <zone h='80980' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99002' x='499' y='18109'>
+              <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Penjualan pada supermarket X mengalami penurunan dari tahun ke tahun baik secara keseluruhan ataupun untuk penjualan yang telah menerima campign.' captured-sheet='Decrease in sales' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Avg total purchases in general'>
+                        <selection-collection>
+                          <node-selection select-tuples='false'>
+                            <oriented-node-reference orientation='vertical'>
+                              <node-reference>
+                                <axis>[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]</axis>
+                              </node-reference>
+                              <page-reference />
+                            </oriented-node-reference>
+                          </node-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Faktor penyebab terjadinya penurunan penjualan yaitu dari ketidak efektifan campaign. Ketidak efektifan campaign dapat dilihat dari kesalahan supermarket dalam menentukan target pasar. ' captured-sheet='Customer Segmentation' id='3' />
+                  <story-point caption='supermarket x hanya memfokuskan campign ke 2 produk teratas. Hal tersebut dapat memberikan dampak negatif terhadap penjualan karena dengan tidak memperhatikan produk lain, supermarket X mungkin melewatkan peluang penjualan yang bisa didapatkan dari produk-produk tersebut. Ada kemungkinan bahwa produk lain di dalam toko juga memiliki potensi untuk menarik minat pelanggan dan menghasilkan penjualan tambahan jika dipromosikan dengan baik' captured-sheet='Prduct' id='4' />
+                  <story-point caption='Tren yang terjadi di supermarket x per bulannya terlihat bahwa grafik fluktuasi total pengeluaran konsumen dari bulan ke bulan dipengaruhi oleh frekuensi campaign yang dilakukan. Jika campaign tersebut berhasil menarik banyak konsumen, maka jumlah pengeluaran yang dikeluarkan oleh konsumen juga cenderung meningkat, begitupun sebaliknya. Berdasarkan tren tiap bulan, pada bulan maret, mei, agustus dan oktober memilki tingkat customer yang tinggi dalam menerima campaign sehingga pada bulan-bulan tersebut total pengeluaran cutomer juga meningkat. Tetapi pada bulan april, juni, juli, november dan desember mengalami penurunan jumlah konsumen yang menerima campaign yang menyebabkan turunya total pengeluaran customer.&#10;&#10;' captured-sheet='Tren' id='5' />
+                  <story-point caption='Campaign efektif dilakukan sebanyak 4 kali karena pada campaign ke 5 jumlah customer yang menerima campaign menurun jika dibandingkan dengan campaign sebelumnya.' captured-sheet='frequency of Campaign' id='6' />
+                  <story-point caption='Customer pada supermarket X lebih memilki minat untuk berbelanja melalui store.  Sehingga supermarket X dapat memfokuskan campaign ke store.' captured-sheet='Place' id='7' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{C4C1DFE6-D5F2-4BD0-9D74-4924036E766C}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Avg total purchases in general'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3AEB5304-FFB5-49A6-9EF0-A94173DDDFA4}' />
+    </window>
+    <window class='worksheet' name='Avg total purchases that received the campaign'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{876988D5-BB91-47EF-83D2-50D59C5E579E}' />
+    </window>
+    <window class='worksheet' name='Avg Income in general'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Income:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0006ED2C-7970-4A4B-AD3D-1BFD518A55FA}' />
+    </window>
+    <window class='worksheet' name='Target Markets'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9C3E3092-1AC3-40F0-8B61-F9D1F84D6192}' />
+    </window>
+    <window class='worksheet' name='Target Markets who accept cmp'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[avg:Total_Purchases:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{126F3AF5-FFA4-4E56-9328-B1866B634B25}' />
+    </window>
+    <window class='worksheet' name='(G) Products with the highest total purchase'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8BF1FB4C-7CD6-46F6-85E7-FE596C11B2D4}' />
+    </window>
+    <window class='worksheet' name='(Y) Products with the highest total purchase'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{03C5B34A-0AF9-4B39-ACAE-48C1E8488D89}' />
+    </window>
+    <window class='worksheet' name='Place'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C0407DCB-AD93-458D-8536-69972EA9DE88}' />
+    </window>
+    <window class='worksheet' name='frequency of Campaign'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B6035B6C-D51D-4CEF-9205-32EF0AA00ACD}' />
+    </window>
+    <window class='worksheet' name='Tren'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1s366lm0hdzfwu188nlfu0v3ybt4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{28D796FB-5F14-4CBF-A2CD-D947150858E4}' />
+    </window>
+    <window class='dashboard' name='Decrease in sales'>
+      <viewpoints>
+        <viewpoint name='Avg total purchases in general'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg total purchases that received the campaign'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{8C7A7958-2146-40D8-B6C5-BFCA4D904595}' />
+    </window>
+    <window class='dashboard' name='Customer Segmentation'>
+      <viewpoints>
+        <viewpoint name='Target Markets'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Target Markets who accept cmp'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{4B8A8D0D-726A-4949-B2F7-407CE1921AD4}' />
+    </window>
+    <window class='dashboard' name='Prduct'>
+      <viewpoints>
+        <viewpoint name='(G) Products with the highest total purchase'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='(Y) Products with the highest total purchase'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{EB1BE914-7232-4F56-8E0B-A0DBB5A7AADA}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{E4A708EC-5098-410A-9F4F-43533DE97533}' />
+    </window>
+  </windows>
+</workbook>
