@@ -16,16 +16,3 @@ Berikut rumusan masalah yang dibutuhkan untuk menganalisis problem:
 5. Berapa kali campaign dilakukan untuk mencapai keefektifan campaign?
 6. Place mana yang memberikan dampak terbesar dalam penerimaan campaign?
 
-## Project Organization 
-├── data
-│   ├── processed      <- The final, canonical data sets for analysis.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- The document will consist of a detailed analysis and visualization.
-│
-├── notebooks          <- Jupyter notebooks, The requirements file for reproducing the analysis environment
-│
-├── reports            
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── README.md          <- The top-level README for developers using this project.
