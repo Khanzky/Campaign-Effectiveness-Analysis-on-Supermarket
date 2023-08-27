@@ -1,4 +1,4 @@
-# Supermarket
+# Campaign Effectiveness Analysis on Supermarket
 ## `Latar Belakang`
 
 Perusahaan supermarket merupakan salah satu bisnis ritel yang penting dalam industri perdagangan. Sebagai pemain di pasar yang kompetitif, supermarket bertujuan untuk meningkatkan penjualan guna mempertahankan dan meningkatkan pangsa pasar mereka. Salah satu indikator utama kinerja penjualan adalah total pengeluaran pelanggan (total spent customer), yang mencerminkan seberapa banyak pelanggan menghabiskan uang di supermarket.
